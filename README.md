@@ -1,5 +1,5 @@
-﻿# Cinema-Shop <a id="anchor"></a>
-##Project description:
+﻿# Cinema-Shop :cinema: <a id="anchor"></a>
+### Project description:
 It is a web application that simulates cinema's ticket-reservation system.
 The application gives an opportunity purchasing a movie ticket and includes such functionality as
 *registration*, *role authorization*, *authentication*, *CRUD operations*.
@@ -23,7 +23,7 @@ The application gives an opportunity purchasing a movie ticket and includes such
 - `[GET]    /cinema-halls - returns all cinema halls`
 - `[GET]    /movie-sessions/available - returns all available movie sessions for the selected movie`
 
-###Description:
+### Description:
 This project represents N-tier architecture model that including *Model*, *DAO*, *Service*, *Controllers* and *DTO* layers.
 This application based on *Spring* and *Hibernate* frameworks. *Hibernate* is used for CRUD operations with DB in DAO layer.
 *Spring annotations* mark Dao, Service and Controller classes to create Spring Beans.
@@ -43,6 +43,8 @@ And used `javax.validation.constraints` for protection sending invalid data.
 - Maven
 - Lombok
 ### Package model:
+
+<img src="https://user-images.githubusercontent.com/90702060/192108862-542eaefc-6a25-46fc-9d6a-86fb6b0d4517.png">
 
 ### How to run this application:
 1. Fork this project
